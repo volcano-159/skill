@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Bash(where node *)",
+      "Bash(powershell -Command \"Test-Path 'C:\\\\Program Files\\\\nodejs\\\\node.exe'\")",
+      "Bash(cmd.exe /c \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" --version)",
+      "Bash(powershell -Command \"& 'C:\\\\Program Files\\\\nodejs\\\\npm.cmd' --version\")",
+      "Bash(powershell -Command \"& 'C:\\\\Program Files\\\\nodejs\\\\npm.cmd' exec -- skills add https://github.com/anthropics/skills --skill skill-creator\")",
+      "Bash(powershell -Command '$env:PATH = '\\\\''C:\\\\Program Files\\\\nodejs;'\\\\'' + $env:PATH; npx skills add https://github.com/anthropics/skills --skill skill-creator')",
+      "Bash(cmd.exe /c \"set PATH=%PATH%;C:\\\\Program Files\\\\nodejs && npx skills add https://github.com/anthropics/skills --skill skill-creator\")"
+    ]
+  }
+}
